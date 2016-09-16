@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the ms_dotnet45 cookbook.
 
+## 3.1.0 (2016-09-16)
+- Require Chef 12.1 not 12.0
+
 ## 3.0.0 (2016-09-06)
 - Testing updates
 - Remove Chef 11 support and the need for the Windows cookbook
