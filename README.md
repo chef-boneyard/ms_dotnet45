@@ -13,7 +13,7 @@ This cookbook installs the Microsoft .NET Framework 4.5
 - Windows Server 2012 / 2012 R2 (not supported on Server Core )
 
 ### Chef
-- Chef 12+
+- Chef 12.1+
 
 ### Cookbooks
 - none

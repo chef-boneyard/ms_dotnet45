@@ -10,4 +10,4 @@ supports          'windows'
 source_url 'https://github.com/chef-cookbooks/ms_dotnet45'
 issues_url 'https://github.com/chef-cookbooks/ms_dotnet45/issues'
 
-chef_version '>= 12'
+chef_version '>= 12.1'
