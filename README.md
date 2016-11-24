@@ -1,11 +1,17 @@
 # ms_dotnet45 Cookbook
-[![Build Status](https://travis-ci.org/chef-cookbooks/ms_dotnet45.svg?branch=master)](https://travis-ci.org/chef-cookbooks/ms_dotnet45)
-[![Cookbook Version](https://img.shields.io/cookbook/v/ms_dotnet45.svg)](https://supermarket.chef.io/cookbooks/ms_dotnet45)
+
+[![Build Status](https://travis-ci.org/chef-cookbooks/ms_dotnet45.svg?branch=master)](https://travis-ci.org/chef-cookbooks/ms_dotnet45) [![Cookbook Version](https://img.shields.io/cookbook/v/ms_dotnet45.svg)](https://supermarket.chef.io/cookbooks/ms_dotnet45)
 
 This cookbook installs the Microsoft .NET Framework 4.5
 
+# DEPRECATED
+
+This cookbook has been deprecated in favor of the ms_dotnet cookbook by criteo at <https://supermarket.chef.io/cookbooks/ms_dotnet>. The ms_dot cookbook provides a single cookbook to install all version of the .NET Framework and also includes a provider that aids in writing wrapper cookbooks.
+
 ## Requirements
+
 ### Platforms
+
 - Windows Vista SP1 or later
 - Windows Server 2008 (not supported on Server Core)
 - Windows 7
@@ -13,22 +19,24 @@ This cookbook installs the Microsoft .NET Framework 4.5
 - Windows Server 2012 / 2012 R2 (not supported on Server Core )
 
 ### Chef
+
 - Chef 12.1+
 
 ### Cookbooks
+
 - none
 
-
 ## Attributes
+
 - `default['ms_dotnet45']['http_url']`: Download URL for MS .NET 4.5 MSI
 - `default['ms_dotnet45']['timeout']`: Timeout for completing the installation
 
-
 ## Usage
+
 Include the default recipe on a node's runlist to ensure that .NET Framework 4.5 is installed on the system
 
-
 # License & Authors
+
 **Author:** Tim Smith ([tsmith@chef.io](mailto:tsmith@chef.io))
 
 **Copyright:** 2011-2015, Webtrends, Inc.
