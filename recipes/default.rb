@@ -1,9 +1,9 @@
 #
 # Author:: Timothy Smith (<tsmith@chef.io>)
-# Cookbook Name:: ms_dotnet45
+# Cookbook:: ms_dotnet45
 # Recipe:: default
 #
-# Copyright 2012, Webtrends, Inc.
+# Copyright:: 2012-2016, Webtrends, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
